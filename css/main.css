@@ -12,3 +12,53 @@ header {
     color: white;
     background-color: #aad4cf;
 }
+
+header img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+header h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    font-size: 2.5em;
+}
+
+.content-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #d4e9e7;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.float-image {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 200px;
+}
+
+ul {
+    list-style: disc inside;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #aad4cf;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
