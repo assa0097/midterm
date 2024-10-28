@@ -1,4 +1,9 @@
-/* Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #d4e9e7;
@@ -43,6 +48,24 @@ h2, h3 {
     width: 200px;
 }
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #aad4cf;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 ul {
     list-style: disc inside;
     margin-top: 10px;
@@ -61,4 +84,12 @@ button {
     color: black;
     font-weight: bold;
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #aad4cf;
+    color: black;
+    font-size: 0.9em;
 }
