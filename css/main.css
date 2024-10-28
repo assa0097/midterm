@@ -1,0 +1,14 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4e9e7;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #aad4cf;
+}
