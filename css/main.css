@@ -31,6 +31,27 @@ header h1 {
     font-size: 2.5em;
 }
 
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    color: white;
+}
+
 .content-section {
     padding: 20px;
     max-width: 800px;
@@ -59,6 +80,7 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
+
 
 nav ul li a {
     color: black;
